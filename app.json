@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "signal-clone",
+    "slug": "signal-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/android.png",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2090EA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android.png",
+        "backgroundColor": "#fffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/web.png"
+    }
+  }
+}
